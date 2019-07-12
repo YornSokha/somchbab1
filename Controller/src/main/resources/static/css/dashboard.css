@@ -1,0 +1,31 @@
+#app {
+    background-color: #FAFAFB;
+    width: 100%;
+    height: 500px;
+}
+
+h5.card-title.fa-pull-right {
+    position: relative;
+    top: 42px;
+    left: 24px;
+    font-size: 12px;
+}
+
+h5.permission.card-title.fa-pull-right {
+    position: relative;
+    top: 42px;
+    left: 24px;
+    font-size: 12px;
+}
+
+.card-body.dashboard-card-body {
+    box-shadow: 0 0 0 1px #d6c9de;
+    border-radius: 5px;
+    color: #736363;
+}
+
+.col.col-h1 {
+    margin-top: 12px;
+    font-size: 34px;
+    color: #736363;
+}
