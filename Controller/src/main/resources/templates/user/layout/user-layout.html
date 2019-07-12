@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml">
+    <head>
+        <th:block th:replace="fragment/style :: style"></th:block>
+        <title>User</title>
+    </head>
+    <body>
+        <!--/.Navbar -->
+        <!--<div id="navbar-replace">-->
+            <!--<th:block th:include="fragment/navbar :: navbar-dropdown"></th:block>-->
+        <!--</div>-->
+        <th:block th:include="user/fragment/menu-sidebar :: menu-sidebar"></th:block>
+
+
+        <div layout:fragment="content"></div>
+        <!--footer.html  that's here  -->
+        <!--<div th:replace="/fragment/footer"></div>-->
+        <!--<th:block th:replace="fragment/script"></th:block>-->
+    </body>
+</html>
