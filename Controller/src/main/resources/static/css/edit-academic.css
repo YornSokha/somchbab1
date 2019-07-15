@@ -1,0 +1,57 @@
+#app{
+    background-color: #FAFAFB ;
+}
+.container.edit-academic-container{
+    max-width: 800px;
+}
+.row.back {
+    position: relative;
+    left: 0px;
+    top: 20px;
+    font-family: initial;
+    font-style: normal;
+    font-weight: 600;
+}
+li.breadcrumb-item.icon-next:before {
+    display: inline-block;
+    padding-right: .5rem;
+    color: #6c757d;
+    position: relative;
+    content: ">" !important;
+    top: 3px;
+}
+ol.breadcrumb.bg-breadcrumb {
+    background: none;
+    font-size: 25px;
+    font-family: initial;
+    font-style: normal;
+    font-weight: 600;
+    position: relative;
+    right: 16px;
+}
+.card.text-center {
+    width: 100%;
+}
+
+input#academic-id {
+    width: 50%;
+}
+
+input#Status {
+    width: 30%;
+}
+
+.form-group.text-label-left {
+    text-align: left;
+}
+.card-header.title {
+    text-align: left;
+    font-size: 20px;
+    font-family: initial;
+    font-style: normal;
+    font-weight: 600;
+}
+.col-sm-3.status {
+    position: relative;
+    right: 14px;
+}

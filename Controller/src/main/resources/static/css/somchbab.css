@@ -304,3 +304,29 @@ ul.sub-nav li.active>a {
     font-size: 1.5rem;
     margin-bottom: -5px;
 }
+
+
+
+/*style for course*/
+#app{
+    background-color: #FAFAFB ;
+}
+.container.list-course-container{
+    width: 1440px;
+    height: 600px;
+    position: relative;
+    top: 20px;
+}
+
+.mt-4-custom, .my-4-custom {
+    margin-top: 1.9rem!important;
+}
+
+input.form-control.search-control {
+    width: 63%;
+}
+
+.col.academic {
+    margin-top: 12px;
+}
+

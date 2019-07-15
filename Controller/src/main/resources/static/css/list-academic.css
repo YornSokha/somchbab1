@@ -1,0 +1,29 @@
+#app{
+    background-color: #FAFAFB ;
+}
+.container.list-academic-container{
+    width: 1440px;
+    height: 600px;
+    position: relative;
+    top: 20px;
+}
+
+.mt-4-custom, .my-4-custom {
+    margin-top: 1.9rem!important;
+}
+.mt-3-custom, .my-3-custom {
+    margin-top: 1.2rem!important;
+}
+input.form-control.search-academic {
+    width: 50%;
+}
+button.btn.btn-primary.float-right.btn-add-academic {
+    width: 37%;
+}
+.col.table-academic {
+    position: relative;
+    top: 17px;
+}
+.col.academic {
+    margin-top: 12px;
+}
